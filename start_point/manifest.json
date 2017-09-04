@@ -1,15 +1,16 @@
 
 {
+  "display_name": "C#, Moq",
+
   "visible_filenames": [
     "HikerTest.cs",
     "IHiker.cs",
     "cyber-dojo.sh"
   ],
 
-  "filename_extension" : ".cs",
-
-  "display_name": "C#, Moq",
-
   "image_name": "cyberdojofoundation/csharp_moq"
 
+  "filename_extension" : ".cs",
+
+  "runner_choice": "stateless"
 }
