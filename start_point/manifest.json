@@ -8,7 +8,7 @@
     "cyber-dojo.sh"
   ],
 
-  "image_name": "cyberdojofoundation/csharp_moq"
+  "image_name": "cyberdojofoundation/csharp_moq",
 
   "filename_extension" : ".cs",
 
