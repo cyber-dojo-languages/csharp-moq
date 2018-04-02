@@ -10,7 +10,7 @@
 
   "image_name": "cyberdojofoundation/csharp_moq",
 
-  "filename_extension" : ".cs",
+  "filename_extension": ".cs",
 
   "runner_choice": "stateless"
 }
