@@ -12,5 +12,7 @@
 
   "filename_extension": ".cs",
 
+  "hidden_filenames": [ "TestResult\\.xml" ],
+
   "runner_choice": "stateless"
 }
