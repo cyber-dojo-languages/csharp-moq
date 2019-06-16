@@ -1,6 +1,7 @@
 
-<img src="https://raw.githubusercontent.com/cyber-dojo/nginx/master/images/home_page_logo.png" alt="cyber-dojo yin/yang logo" width="50px" height="50px"/>
+[![CircleCI](https://circleci.com/gh/cyber-dojo-languages/csharp-moq.svg?style=svg)](https://circleci.com/gh/cyber-dojo-languages/csharp-moq)
 
-# C#, moq
+# display_name="C#, Moq"
+# image_name="cyberdojofoundation/csharp_moq"
 
-![Build Status](https://travis-ci.org/cyber-dojo-languages/csharp-moq.svg?branch=master)
+![cyber-dojo.org home page](https://github.com/cyber-dojo/cyber-dojo/blob/master/shared/home_page_snapshot.png)
