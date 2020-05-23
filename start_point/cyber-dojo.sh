@@ -1,3 +1,13 @@
+
+trap tidy_up EXIT
+function tidy_up()
+{
+  # cyber-dojo returns text files under /sandbox that are
+  # created/deleted/changed. In here you can remove any
+  # such files you don't want returned to the browser.
+  [ ! -f TestResult.xml ] || rm TestResult.xml
+}
+
 MOQ_PATH=/moq/Moq.4.7.99/lib/net45
 CASTLE_PATH=/moq/Castle.Core.4.1.1/lib/net45
 NUNIT_PATH=/moq/lib/net45
