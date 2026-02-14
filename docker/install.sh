@@ -1,11 +1,13 @@
-#!/bin/bash -Eeu
+#!/usr/bin/env bash
+set -Eeu
 
-mono nuget.exe restore -PackagesDirectory .
+# After the dotnet command has run ~/.nuget/packages contains nunit/ ...
+# so it is important the current user is sandbox.
+# Also, the /tmp dir has a csproj file (copied into the docker/ dir ready to be used
+# in the start-point)
 
-mkdir /moq
-mv Moq.*                        /moq
-mv Castle.Core.*                /moq
-mv NUnit.*/lib                  /moq
-mv NUnit.ConsoleRunner.*/tools  /moq
+[ "$(whoami)" == sandbox ] || (>&2 echo 'User must be sandbox' ; kill -INT $$)
+cd /tmp
+dotnet new nunit
+dotnet add package Moq
 
-mv red_amber_green.rb /usr/local/bin
