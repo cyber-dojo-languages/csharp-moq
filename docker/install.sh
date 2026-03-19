@@ -11,3 +11,5 @@ cd /tmp
 dotnet new nunit
 dotnet add package Moq
 
+# Install NUnit runner - will save ~1.5 seconds compared with dotnet test
+dotnet tool install --global NUnit.ConsoleRunner.NetCore --version 3.22.0
